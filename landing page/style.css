@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    z-index: 999;
+}
+.mobile-menu{
+    display: none;
+}
+.toggle-button {
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+}
+.toggle-button span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+}
+.toggle-button span:nth-child(1) {
+    top: 0;
+}
+.toggle-button span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.toggle-button span:nth-child(3) {
+    bottom: 0;
+}
+
+.links a{
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 20px;
+}
+.links a:hover{
+    color:  hsl(0, 94%, 66%);
+}
+.btn{
+    padding: 5px 15px;
+    background-color: hsl(0, 94%, 66%) ;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 0.5px solid  hsl(0, 94%, 66%);
+    color:  hsl(0, 94%, 66%);
+
+}
+    /*  Nav Section Ends */
+
+.hero{
+    display: flex;
+    padding: 30px 100px;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+} 
+.hero img{
+    /* background-color: red; */
+    margin-right: 30px;
+    
+}
+.browser{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}   
+.chrome{
+    padding: 10px 15px;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 3px 3px 0px grey;
+    cursor: pointer;
+}
+.chrome:hover{
+    background-color: transparent;
+    border: 1.5px solid  hsl(231, 69%, 60%) ;
+    color:  hsl(231, 69%, 60%);
+}
+.firefox{
+    padding: 10px 15px;
+    background-color: hsl(229, 8%, 60%);
+    color: black;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 3px 3px 0px grey;
+    cursor: pointer;
+}
+.firefox:hover{
+    background-color: transparent;
+    border: 1.5px solid  hsl(229, 8%, 60%) ;
+    color: hsl(229, 8%, 60%) ;
+}
+.hero h1{
+    margin-top: 25px;
+    width: 100%;
+    font-size: 40px;
+}
+.hero p{
+    width: 100%;
+    margin-top: 30px;
+}
+/* Hero Style End Here */
+
+.over-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+}
+.cntr{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.txt{
+    text-align: center;
+    width: 100%;
+}
+.txt p{
+    display: inline-block;
+}
+.cntr p{
+    width: 30%;
+    align-content: center;
+}
+.moo{
+    display:flex ;
+    gap: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+.mv1{
+    border-bottom: 3px solid  hsl(0, 94%, 66%);
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.mv2{
+    border-bottom: 1px solid  hsl(229, 8%, 60%) ;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.mv2:hover{
+    color: hsl(0, 94%, 66%);
+}
+.card{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    gap: 30px;
+}
+.don-tx h2,p{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.don-tx button{
+    padding: 10px 10px;
+    background-color: hsl(231, 69%, 60%) ;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 3px 3px 0px grey;
+}
+.set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+.sit{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.carrrd{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    padding-top: 10px;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    gap: 20px;
+    box-shadow: 3px 3px 3px 3px gray;
+    /* background-color: red; */
+}
+.xtn{
+    padding: 50px;
+    margin-top: 35px;
+}
+.tcn{
+    margin-top: 100px;
+}
+.carrrd .crome{
+    width: 40%;
+}
+.carrrd img{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.carrrd h2{
+    font-size: medium;
+}
+.bnt{
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bnt:hover{
+    background-color: transparent;
+    border: 1px solid  hsl(231, 69%, 60%);
+    color:  hsl(231, 69%, 60%);
+}
+.acord{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.acord p{
+    width: 60%;
+    display: inline-block;
+}
+.acss{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid  hsl(229, 8%, 60%);
+    width:35%;
+    cursor: pointer;
+}
+.acss:hover{
+    color: hsl(0, 94%, 66%) ;
+}
+.acd-btn{
+    padding: 10px 35px;
+    border: none;
+    outline: none;
+    background-color:  hsl(231, 69%, 60%);
+    margin-top: 25px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.acd-btn:hover{
+    background-color: transparent;
+    color: hsl(231, 69%, 60%);
+    border: 1px solid  hsl(231, 69%, 60%);
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 100px;
+    margin-top: 35px;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    text-align: center;
+}
+.last h1{
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+.last input{
+    padding: 10px 20px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: grey;
+}
+.bot{
+    padding: 10px 20px;
+    background-color:  hsl(0, 94%, 66%);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.bot:hover{
+    background-color: white;
+    border: 1px solid  hsl(0, 94%, 66%) ;
+    color:  hsl(0, 94%, 66%);
+}
+.lant{
+    display: flex;
+    background-color: hsl(229, 31%, 21%);
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.foot p{
+    font-size: 12px;
+}
+.foot p a:hover{
+    color: hsl(0, 94%, 66%);
+}
+.foot a{
+    text-decoration: none;
+    color: white;
+}
+.ab:hover{
+    background-color: hsl(0, 94%, 66%)
+}
+.ac:hover{
+    background-color: hsl(0, 94%, 66%)
+}
+.toggle-button{
+    display: none;
+}
+
+@media screen and (max-width:970px) {
+ .links{
+    display: none;
+ }
+ .mobile-menu{
+    display: flex;
+    flex-direction: column;
+    transition: ease ease-in-out 2ms;
+ }
+ .toggle-button{
+    display: block;
+ }
+ nav {
+    display: flex;
+   padding: 10px;
+}
+ .mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+    background-color: hsl(229, 31%, 21%);
+ }
+    .mobile a{
+         color: white;
+    }
+    .mobile-links{
+         display: none;
+    }
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .hero img{
+        width: 100%;
+    }
+    .hero h1{       
+    width: 100%;
+    font-size: medium;
+    }
+     .hero p{
+    width: 100%;
+     }
+    .moo {
+    flex-direction: column;
+    }
+    .sit {
+    flex-direction: column;
+    }
+    .card{
+    flex-direction: column;
+    }
+    .card img{
+    width: 70%;
+    }
+    .cntr p {
+    width: 100%;
+    }
+    .don-tx h2, p {
+        width: 100%;
+    }
+    .set {
+        margin-top: 0;
+    }
+    .acord{
+        width: 100%;
+    }
+    .acord p {
+        width: 80%;
+        display: inline-block;
+    }
+    .last{
+        padding: 10px;
+    }
+    .lant {
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot{
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+}
